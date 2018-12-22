@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/upcss.css" rel="stylesheet">
+    <link href="../css/shop-drop.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet">
+    <title>Home Burger Cafe</title>
+    <script src="../css/upjs.js"></script>
+  </head>
+
+  <body>
+  <!-- <button onclick="topFunction()" id="myBtn" title="Go to top">Вгору</button> -->
+    <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
+      <div class="container header-container">
+        <a href="../index.html"><img class="logo" src="../img/logo.png"></a>
+        <a class="navbar-brand" href="../index.html">Home Burger Cafe</a>
+        <div id="main-menu" class="menu-wraper hide">
+          <a class="navbar-menu back-btn" href="#" onclick="pageBack()" data-toggle="modal" data-target="#exampleModal">Назад</a>
+          <a class="navbar-menu" href="../index.html">Меню</a>
+          <a class="navbar-menu" href="../delivery/delivery.html">Доставка</a>
+          <a class="navbar-menu" href="../contact.html">Контакти</a>
+        </div>
+        <div class="basket" data-toggle="modal" data-target="#exampleModal"><span>+38(066)-887-47-60</span><span>&nbsp</span>
+          <a href="#"><img width="35" src="../img/cart.png"></a>
+        </div>
+        <div class="btn-menu" onclick="showMenu()"><img src="../img/menu-icon.png" alt="menu"></div>
+        <div class="collapse navbar-collapse" id="navbarResponsive"></div>
+      </div>
+    </nav>
+        <!-- Page Content -->
+    <div class="container content-container">
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Зателефонувати</h5>
+            </div>
+            <div class="modal-header"><span><a href="tel:+380668874760">+38(066)-887-47-60</a></span></div>
+            <div class="modal-body"><span><a href="tel:+380668874760">+38(068)-339-81-20</a></span></div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Page Heading -->
+      <h3 class="text-center my-4-dev">Бургер меню
+        <small></small>
+      </h3>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item main-card">
+          <div class="card h-100">
+            <a><img class="card-img-top" src="../img/burgerm/kentm.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title text-center">
+                <a>Kentukki Menu 122 грн.</a>
+                <!-- <div> href="../product/burgermenu/kentukkimenu.html"</div> -->
+              </h4>
+              <p class="card-text">
+                <ul>
+                  <li>Бургер Kentukki (Куряче стегно на грилі, булка біла, сир "Моцарелла", салат "Айзберг", соус "Грибний", соус "Цезарь", помідор свіжий)</li>
+                  <li>Маринована капуста</li>
+                  <li>Картопля фрі</li>
+                  <li>Соус на вибір</li>
+                  <li>Напій на вибір</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item main-card">
+          <div class="card h-100">
+            <a><img class="card-img-top" src="../img/burgers/verg.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title text-center">
+                <a>Virginia Menu 111 грн.</a>
+                <!-- <div> href="../product/burgermenu/virginiamenu.html"</div> -->
+              </h4>
+              <p class="card-text">
+                <ul>
+                  <li>
+                    Бургер Virginia (Булка зі шпенатом, овочі на грилі: баклажан, перець, кабачок, печериці, стручкова квасоля, соус "Песто", соус "Соєвий")
+                  </li>
+                  <li>Маринована капуста</li>
+                  <li>Картопля фрі</li>
+                  <li>Соус на вибір</li>
+                  <li>Напій на вибір</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item main-card">
+          <div class="card h-100">
+            <a><img class="card-img-top" src="../img/burgerm/nym.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title text-center">
+                <a>New York Menu 144 грн.</a>
+                <!-- <div> href="../product/burgermenu/newyorkmenu.html"</div> -->
+              </h4>
+              <p class="card-text"><ul>
+                <li>Бургер New York (Яловича котлета, булка біла сир "Чедер", хрусткий бекон, салат "Айзберг", соус "BBQ", огірок с/с, помідор свіжий)</li>
+                <li>Маринована капуста</li>
+                <li>Картопля фрі</li>
+                <li>Соус на вибір</li>
+                <li>Напій на вибір</li>
+              </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item main-card">
+          <div class="card h-100">
+            <a><img class="card-img-top" src="../img/burgers/florida.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title text-center">
+                <a>Florida Menu 155 грн.</a>
+                <!-- <div> href="../product/burgermenu/floridamenu.html"</div> -->
+              </h4>
+              <p class="card-text">
+              <ul>
+                <li>Бургер Florida (Ростбів (вирізка яловича), булка біла, сир "Моцарелла", салат "Айзберг", соус "Цезарь", огірок с/с, помідор свіжий)</li>
+                <li>Маринована капуста</li>
+                <li>Картопля фрі</li>
+                <li>Соус на вибір</li>
+                <li>Напій на вибір</li>
+              </ul>
+            </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item main-card">
+          <div class="card h-100">
+            <a><img class="card-img-top" src="../img/burgers/cal.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title text-center">
+                <a>California Menu 144 грн.</a>
+                <!-- <div> href="../product/burgermenu/californiamenu.html"</div> -->
+              </h4>
+              <p class="card-text">
+              <ul>
+                <li>Бургер California (Свинна котлета, булка біла, сир "Чедер", хрусткий бекон, салат "Лола", соус "Гірчичний", цибуля фрі, помідор свіжий)</li>
+                <li>Маринована капуста</li>
+                <li>Картопля фрі</li>
+                <li>Соус на вибір</li>
+                <li>Напій на вибір</li>
+              </ul>
+            </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item main-card">
+          <div class="card h-100">
+            <a><img class="card-img-top" src="../img/burgers/best.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title text-center">
+                <a>Best-Burger Menu 145 грн.</a>
+                <!-- <div> href="../product/burgermenu/bestburgermenu.html"</div> -->
+              </h4>
+              <p class="card-text">
+                <ul>
+                  <li>Бургер Best-Burger (Яловичо-свинна котлета, булка біла, сир "Чедер", хрусткий бекон, салат "Лола", соус "BBQ", соус "Шашличний", помідор свіжий)</li>
+                  <li>Маринована капуста</li>
+                  <li>Картопля фрі</li>
+                  <li>Соус на вибір</li>
+                  <li>Напій на вибір</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item main-card">
+          <div class="card h-100">
+            <a><img class="card-img-top" src="../img/burgers/ind.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title text-center">
+                <a>Indiana Menu 144 грн.</a>
+                <!-- <div> href="../product/burgermenu/indianamenu.html"</div> -->
+              </h4>
+              <p class="card-text">
+                <ul>
+                  <li>
+                    Бургер Indiana (Котлета із індичого стегна, булка чорна, сир "Пармезан", бекон, салат "Лола" соус з хріном, соус "Гірчичний", помідор свіжий)
+                  </li>
+                  <li>Маринована капуста</li>
+                  <li>Картопля фрі</li>
+                  <li>Соус на вибір</li>
+                  <li>Напій на вибір</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item main-card">
+          <div class="card h-100">
+            <a><img class="card-img-top" src="../img/burgers/alaska.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title text-center">
+                <a>Aliaska Menu 199 грн.</a>
+                <!-- <div> href="../product/burgermenu/aliaskamenu.html"</div> -->
+              </h4>
+              <p class="card-text">
+                <ul>
+                  <li>Бургер Aliaska (Філо лосося на грилі, булка біла, сир "Чедер", салат "Лола", соус "Соєвий")</li>
+                  <li>Маринована капуста</li>
+                  <li>Картопля фрі</li>
+                  <li>Соус на вибір</li>
+                  <li>Напій на вибір</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+        <!-- /.row -->
+      <ul class="pagination justify-content-center">
+        <li class="page-item" style="margin: 0px 0px 20px 0px;">
+        </li>
+      </ul>
+    </div>
+    <!-- /.container -->
+    <!-- Footer -->
+    <div id="footer">
+      <footer class="py-3 bg-dark footer-custom">
+        <div class="container">
+          <p class="m-0 text-center text-white">Copyright &copy; HomeBurgerCafe - Designed by <a href="https://github.com/YagodinAleksandr">CoffeeGreenStudio</a></p>
+        </div>
+      </footer>
+    </div>
+    <!-- Bootstrap core JavaScript -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/delivery-order.js"></script>
+  </body>
+</html>
