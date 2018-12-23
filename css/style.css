@@ -68,7 +68,6 @@ a:hover {
 }
 .picture-box {
   display: inline-block;
-  width: 25%;
 }
 
 .picture-box img {
@@ -77,20 +76,19 @@ a:hover {
   border: 1px solid rgba(58,35,6);
 
 }
+
 /* .main-card:hover {
   border: 2px solid rgb(247,173,57);
   background-color: rgba(247 ,173,47, 0.4);
   text-decoration: underline;
   cursor: pointer;
 } */
+
 .discription {
   display: inline-block;
   vertical-align: top;
   width: 68%;
   margin-left: 12px;
-}
-.discription p {
-  font-size: 16px;
 }
 .contacts {
   padding-left: 0;
@@ -154,8 +152,16 @@ a:hover {
   .basket span {
     display: none;
   }
-  .main-card {
-    padding: 0 1rem 1rem;
+ 
+  .picture-box {
+    width: 110px;
+  }
+  .discription {
+    width: 240px;
+    line-height: 0.08;
+  }
+  .discription p {
+    font-size: 12px;
   }
   footer {
     font-size: 1rem;
@@ -171,7 +177,7 @@ a:hover {
     padding-left: 15px;
   }
   .navbar-brand {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin: 0 .6rem;
   }
   .menu-wraper {
@@ -194,6 +200,15 @@ a:hover {
   .content-container {
     margin-top: 1.6rem;
   }
+  .picture-box {
+    width: 27%;
+  }
+  .discription {
+    line-height: 0.6;
+  }
+  .discription p {
+    font-size: 18px;
+  }
   .contacts {
     font-size: 1.2rem;
   }
@@ -212,7 +227,7 @@ a:hover {
   }
   .navbar-brand {
     font-size: 1.75rem;
-    margin: 0 2.4rem 0 1rem;
+    margin: 0 1rem 0 1rem;
   }
   .menu-wraper {
     display: table;
@@ -233,6 +248,15 @@ a:hover {
     right: 15px;
     padding: .2rem .5rem;
     font-size: 1.3rem;
+  }
+  .picture-box {
+    width: 27%;
+  }
+  .discription {
+    line-height: 1;
+  }
+  .discription p {
+    font-size: 20px;
   }
   .contacts {
     font-size: 1.4rem;
@@ -266,6 +290,12 @@ a:hover {
     right: 15px;
     padding: .2rem .5rem;
     font-size: 1.4rem;
+  }
+  .picture-box {
+    width: 25%;
+  }
+  .discription p {
+    font-size: 24px;
   }
   footer {
     font-size: 1.4rem;
