@@ -152,12 +152,15 @@ a:hover {
   .basket span {
     display: none;
   }
- 
+  .main-card {
+    padding: 4px;
+  }
   .picture-box {
     width: 110px;
   }
   .discription {
-    width: 240px;
+    width: 220px;
+    vertical-align: unset;
     line-height: 0.08;
   }
   .discription p {
