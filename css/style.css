@@ -1,5 +1,6 @@
 body {
   padding-top: 54px;
+  font-family: Helvetica, sans-serif, Arial;
 }
 a {
   color: #6e0920;
@@ -58,21 +59,38 @@ a:hover {
 .bg-dark {
   background-color: #3a2306!important;
 }
-.text-center {
-  color: #6e0920;
-}
+
 .main-card {
-  padding: 0 .5rem 1rem;
-}
-.card {
-  background-color: rgba(247 ,173,47, 0.15);
+  width: 100%;
+  background-color: rgba(255, 181, 61, 0.18);
   border: 1px solid rgba(58,35,6);
+  padding: 12px;
 }
-.marker:hover {
+.picture-box {
+  display: inline-block;
+  width: 25%;
+}
+
+.picture-box img {
+  width: 100%;
+  vertical-align: bottom;
+  border: 1px solid rgba(58,35,6);
+
+}
+/* .main-card:hover {
   border: 2px solid rgb(247,173,57);
   background-color: rgba(247 ,173,47, 0.4);
   text-decoration: underline;
   cursor: pointer;
+} */
+.discription {
+  display: inline-block;
+  vertical-align: top;
+  width: 68%;
+  margin-left: 12px;
+}
+.discription p {
+  font-size: 16px;
 }
 .contacts {
   padding-left: 0;

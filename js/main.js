@@ -5,3 +5,4 @@ function showMenu() {
 function pageBack () {
     console.log('Функция кнопки назад в разработке');
 };
+console.log('main');

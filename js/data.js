@@ -1,114 +1,106 @@
 
-var menu = [{
-  id : 'm101',
-  name : 'New York Menu',
-  ukrname : 'Нью Йорк Меню',
-  price : 144.00
-},
-{
-  id : 'm102',
-  name : 'Florida Menu',
-  ukrname : 'Флоріда Меню',
-  price : 155.00
+var data = [{
+	id: 001,
+	name: "ДСП ламіноване. 8953 SU Орех тиеполо",
+	dimension: "2380 х 1153 мм.",
+	thickness: 18,
+	main_url: "001/main.jpeg",
+	add_url: "001/addition.jpeg",
+	producer: "Kronospan",
+	description: "Деталь у хорошому стані",
+	price: "500 грн.",
+	available: true
 },{
-  id : 'm103',
-  name : 'California Menu',
-  ukrname : 'Каліфорнія Меню',
-  price : 144.00
+	url: "http://desktopwallpapers.org.ua/mini/201507/40068.jpg",
+	name: "DEWOO",
+	id : 002,
+	params: {
+		status: true,
+		progress: "88"
+	},
+	description : "Lorem ipsum dolor sit amet",
+	date : 1421153200637
 },{
-  id : 'm104',
-  name : 'Best Burger Menu',
-  ukrname : 'Бест-Бургер Меню',
-  price : 145.00
+	url: "desktopwallpapers.org.ua/mini/201507/40067.jpg",
+	name: "FOLKSWAGEN",
+	id : 3,
+	params: {
+		status: false,
+		progress: "64"
+	},
+	description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+	date : 1426153200637
 },{
-  id : 'm105',
-  name : 'Indiana Menu',
-  ukrname : 'Індіана Меню',
-  price : 144.00
+	url: "desktopwallpapers.org.ua/mini/201507/40057.jpg",
+	name: "FERRARI",
+	id : 4,
+	params: {
+		status: true,
+		progress: "38"
+	},
+	description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+	date : 1428153200637
 },{
-  id : 'm106',
-  name : 'Kentukki Menu',
-  ukrname : 'Кентукі Меню',
-  price : 122.00
+	url: "desktopwallpapers.org.ua/mini/201507/40066.jpg",
+	name: "BMW",
+	id : 5,
+	params: {
+		status: true,
+		progress: "12"
+	},
+	description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+	date : 1402153200637
 },{
-  id : 'm107',
-  name : 'Virginia Menu',
-  ukrname : 'Вірджинія Меню',
-  price : 155.00
+	url: "desktopwallpapers.org.ua/mini/201507/40064.jpg",
+	name: "MERCEDESS",
+	id : 6,
+	params: {
+		status: true,
+		progress: "83"
+	},
+	description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+	date : 1442153200637
 },{
-  id : 'm108',
-  name : 'Aliaska Menu',
-  ukrname : 'Аляска Меню',
-  price : 199.00
-}];
+	url: "desktopwallpapers.org.ua/mini/201507/40063.jpg",
+	name: "SKODA",
+	id : 7,
+	params: {
+		status: true,
+		progress: "49"
+	},
+	description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+	date : 1482153200637
+},{
+	url: "desktopwallpapers.org.ua/mini/201507/40062.jpg",
+	name: "FORD",
+	id : 8,
+	params: {
+		status: true,
+		progress: "14"
+	},
+	description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+	date : 1442153200637
+},{
+	url: "desktopwallpapers.org.ua/mini/201507/40059.jpg",
+	name: "TOYOTA",
+	id : 9,
+	params: {
+		status: true,
+		progress: "20"
+	},
+	description : "Lorem ipsum dolor sit amet",
+	date : 1322153200637
+},{
+	url: "desktopwallpapers.org.ua/mini/201507/40058.jpg",
+	name: "RENAULT",
+	id : 10,
+	params: {
+		status: true,
+		progress: "40"
+	},
+	description : "Lorem ipsum dolor sit amet",
+	date : 1322159200637
+}]
 
-var sauceArray = [{
-  id : 's101',
-  name : 'Соус "Бaрбекю"',
-  ukrname : 'Соус "Бaрбекю"',
-  price : 10.00
-},
-{
-  id : 's102',
-  name : 'Соус "Цезарь"',
-  ukrname : 'Соус "Цезарь"',
-  price : 15.00
-},{
-  id : 's103',
-  name : 'Соус "Тар-Тар"',
-  ukrname : 'Соус "Тар-Тар"',
-  price : 15.00
-},{
-  id : 's104',
-  name : 'Соус "Гірчичний"',
-  ukrname : 'Соус "Гірчичний"',
-  price : 15.00
-},{
-  id : 's105',
-  name : 'Соус "Грибний"',
-  ukrname : 'Соус "Грибний"',
-  price : 15.00
-},{
-  id : 's106',
-  name : 'Соус "Хроновий"',
-  ukrname : 'Соус "Хроновий"',
-  price : 15.00
-},{
-  id : 's107',
-  name : 'Соус "Шашличний"',
-  ukrname : 'Вірджинія Меню',
-  price : 10.00
-},{
-  id : 's108',
-  name : 'Соус "Кетчуп"',
-  ukrname : 'Соус "Кетчуп"',
-  price : 8.00
-}];
+console.log('data');
 
-var drinkArray = [{
-  id : 'cd101',
-  name : 'Coca-Cola',
-  ukrname : 'Кока-Кола',
-  price : 19.00
-},
-{
-  id : 'cd102',
-  name : 'Pepsi',
-  ukrname : 'Пепсі',
-  price : 19.00
-},{
-  id : 'cd103',
-  name : 'Sprite',
-  ukrname : 'Спрайт',
-  price : 19.00
-},{
-  id : 'cd104',
-  name : 'Fanta',
-  ukrname : 'Фанта',
-  price : 19.00
-},{
-  id : 'cd105',
-  name : 'Моршинська',
-  ukrname : 'Моршинська',
-  price : 15.00
-}];
