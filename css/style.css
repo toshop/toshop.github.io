@@ -72,7 +72,7 @@ a:hover {
 }
 
 .picture-box img {
-  width: 100%;
+  width: 105%;
   vertical-align: bottom;
   border: 1px solid rgba(58,35,6);
 
@@ -167,8 +167,9 @@ a:hover {
     width: 110px;
   }
   .discription {
-    width: 210px;
-    vertical-align: unset;
+    width: 200px;
+    margin-top: 6px;
+    /* vertical-align: unset; */
     line-height: 0.08;
   }
   .discription p {
@@ -216,6 +217,7 @@ a:hover {
   }
   .discription {
     margin-top: 5px;
+    margin-left: 24px;
     line-height: 0.6;
   }
   .discription p {
