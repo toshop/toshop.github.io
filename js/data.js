@@ -26,6 +26,15 @@ var data = [{
 	description: "Деталь у хорошому стані",
 	price: "300 грн.",
 	available: true
+},{
+	id: "004",
+	name: "ДСП U 330 ST 15 Баклажан ",
+	dimension: "2800 х 730 мм.",
+	thickness: 18,
+	producer: "Egger",
+	description: "Деталь у хорошому стані",
+	price: "400 грн.",
+	available: true
 }
 ]
 
