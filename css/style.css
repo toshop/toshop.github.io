@@ -62,6 +62,7 @@ a:hover {
 
 .main-card {
   width: 100%;
+  margin-bottom: 12px;
   background-color: rgba(255, 181, 61, 0.18);
   border: 1px solid rgba(58,35,6);
   padding: 12px;
@@ -152,6 +153,13 @@ a:hover {
   .basket span {
     display: none;
   }
+  .container {
+    padding-left: 27px;
+    padding-right: 27px;
+  }
+  .content-container {
+    margin-top: 12px;
+  }
   .main-card {
     padding: 4px;
   }
@@ -201,12 +209,13 @@ a:hover {
     font-size: .8rem;
   }
   .content-container {
-    margin-top: 1.6rem;
+    margin-top: 12px;
   }
   .picture-box {
     width: 27%;
   }
   .discription {
+    margin-top: 5px;
     line-height: 0.6;
   }
   .discription p {
@@ -241,7 +250,7 @@ a:hover {
     display: inline;
   }
   .content-container {
-    margin-top: 2.2rem;
+    margin-top: 24px;
   }
   .back-btn {
     display: none;
@@ -252,6 +261,7 @@ a:hover {
     padding: .2rem .5rem;
     font-size: 1.3rem;
   }
+
   .picture-box {
     width: 27%;
   }
