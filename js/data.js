@@ -176,7 +176,7 @@ var data = [{
 	dimension: "1695 х 715 мм.",
 	thickness: 18,
 	producer: "Kronospan",
-	description: "Акция! 020+021 = 400 грн",
+	description: "Акція! 020+021 = 400 грн",
 	price: "230 грн.",
 	available: true
 },{
@@ -185,7 +185,7 @@ var data = [{
 	dimension: "2370 х 470 мм.",
 	thickness: 18,
 	producer: "Kronospan",
-	description: "Акция! 020+021 = 400 грн",
+	description: "Акція! 020+021 = 400 грн",
 	price: "210 грн.",
 	available: true
 }
