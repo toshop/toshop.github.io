@@ -34,7 +34,7 @@ var data = [{
 	producer: "Kronospan",
 	description: "Деталь у хорошому стані",
 	price: "550 грн.",
-	available: true
+	available: false
 },{
 	id: "005",
 	name: "ДВП 0101 Білий",
@@ -46,7 +46,7 @@ var data = [{
 	available: true
 },{
 	id: "006",
-	name: "ДВП 0101 Білий",
+	name: "ДВП 101 Білий",
 	dimension: "2280 х 1200 мм.",
 	thickness: 3,
 	producer: "Kronospan",
@@ -61,7 +61,7 @@ var data = [{
 	producer: "Noname",
 	description: "Деталь у хорошому стані",
 	price: "360 грн.",
-	available: true
+	available: false
 },{
 	id: "008",
 	name: "W908 SМ Білий базовий",
@@ -73,75 +73,120 @@ var data = [{
 	available: true
 },{
 	id: "009",
-	name: "ДСП",
+	name: "ДСП U119 PE Свеітлий беж",
 	dimension: "2800 х 570 мм.",
 	thickness: 16,
-	producer: "",
+	producer: "Swiss Krono",
 	description: "Деталь у хорошому стані",
-	price: " грн.",
-	available: false
+	price: "300 грн.",
+	available: true
 },{
 	id: "010",
-	name: "ДСП Белый",
+	name: "ДСП W 980 Белий платиновий",
 	dimension: "2800 х 943 мм.",
 	thickness: 18,
-	producer: "",
+	producer: "Egger",
 	description: "Деталь у хорошому стані",
-	price: " грн.",
-	available: false
+	price: "480 грн.",
+	available: true
 },{
 	id: "011",
-	name: "",
+	name: "ДВП 101 Білий",
 	dimension: "2800 х 586 мм.",
 	thickness: 3,
-	producer: "",
+	producer: "Kronpspan",
 	description: "Деталь у хорошому стані",
-	price: " грн.",
-	available: false
+	price: "100 грн.",
+	available: true
 },{
 	id: "012",
-	name: "ДВП",
-	dimension: "516 х 2070 мм.",
+	name: "ДВП 101 Білий",
+	dimension: "2070 х 516 мм.",
 	thickness: 3,
-	producer: "",
+	producer: "Kronospan",
 	description: "Деталь у хорошому стані",
-	price: " грн.",
-	available: false
+	price: "50 грн.",
+	available: true
 },{
 	id: "013",
-	name: "ДСП",
+	name: "ДСП Noname",
 	dimension: "2800 х 958 мм.",
 	thickness: 16,
-	producer: "",
+	producer: "Noname",
 	description: "Деталь у хорошому стані",
 	price: " грн.",
 	available: false
 },{
 	id: "014",
-	name: "ДСП",
+	name: "ДСП 8685 SN Білий сніг",
 	dimension: "2750 х 1308 мм.",
 	thickness: 18,
-	producer: "",
-	description: "Деталь у хорошому стані",
-	price: " грн.",
-	available: false
+	producer: "Kronospan",
+	description: "Акція! Слот 015 у подарунок",
+	price: "600 грн.",
+	available: true
 },{
 	id: "015",
-	name: "ДСП",
-	dimension: "2800 х 585 мм.",
+	name: "ДСП 8685 SN Білий сніг",
+	dimension: "355 х 1830 мм.",
 	thickness: 18,
-	producer: "",
+	producer: "Kronospan",
 	description: "Деталь у хорошому стані",
-	price: " грн.",
-	available: false
+	price: "100 грн.",
+	available: true
 },{
 	id: "016",
-	name: "ДСП U 330 ST 15 Баклажан ",
+	name: "ДСП H1555 ST15 Венге",
+	dimension: "2800 х 585 мм.",
+	thickness: 18,
+	producer: "Egger",
+	description: "Деталь у хорошому стані",
+	price: "250 грн.",
+	available: true
+},{
+	id: "017",
+	name: "ДСП U 330 ST 15 Баклажан",
 	dimension: "2800 х 730 мм.",
 	thickness: 18,
 	producer: "Egger",
 	description: "Деталь у хорошому стані",
 	price: "400 грн.",
-	available: false
+	available: true
+},{
+	id: "018",
+	name: "Стільниця L914-1 U Граніт",
+	dimension: "545 х 600 мм.",
+	thickness: 38,
+	producer: "Luxeform",
+	description: "Деталь у хорошому стані",
+	price: "100 грн.",
+	available: true
+},{
+	id: "019",
+	name: "Акріл SM Сніжно-Білий ",
+	dimension: "870 х 595 мм.",
+	thickness: 19,
+	producer: "NIEMANN",
+	description: "Деталь нова, кромкована",
+	price: "300 грн.",
+	available: true
+},{
+	id: "020",
+	name: "ДСП 8679 Дуб Родос світлий",
+	dimension: "1695 х 715 мм.",
+	thickness: 18,
+	producer: "Kronospan",
+	description: "Акция! 020+021 = 400 грн",
+	price: "230 грн.",
+	available: true
+},{
+	id: "021",
+	name: "ДСП 8679 Дуб Родос світлий",
+	dimension: "2370 х 470 мм.",
+	thickness: 18,
+	producer: "Kronospan",
+	description: "Акция! 020+021 = 400 грн",
+	price: "210 грн.",
+	available: true
 }
 ];
