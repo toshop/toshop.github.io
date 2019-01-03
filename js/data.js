@@ -188,5 +188,122 @@ var data = [{
 	description: "Акція! 020+021 = 400 грн",
 	price: "210 грн.",
 	available: true
+},{
+	id: "022",
+	name: "ДСП W980 ST2 Платиновий білий",
+	dimension: "2070 х 515 мм.",
+	thickness: 10,
+	producer: "Egger",
+	description: "Нормальний стан",
+	price: "180 грн.",
+	available: true
+},{
+	id: "023",
+	name: "ДСП 2226 PR Венге Магія",
+	dimension: "2750 х 1220 мм.",
+	thickness: 16,
+	producer: "Kronospan",
+	description: "Нормальний стан",
+	price: "600 грн.",
+	available: true
+},{
+	id: "024",
+	name: "ДСП 2227 PR Венге темний",
+	dimension: "2780 х 1040 мм.",
+	thickness: 18,
+	producer: "Kronospan",
+	description: "Нормальний стан",
+	price: "500 грн.",
+	available: true
+},{
+	id: "025",
+	name: "ДСП U999 ST2 Чорний",
+	dimension: "1045 х 1002 мм.",
+	thickness: 25,
+	producer: "Egger",
+	description: "Нормальний стан",
+	price: "300 грн.",
+	available: true
+},{
+	id: "026",
+	name: "ДСП H1348 Дуб Кремона Шампань",
+	dimension: "2800 х 650 мм.",
+	thickness: 25,
+	producer: "Egger",
+	description: "Акція! 026+027 = 650 грн",
+	price: "500 грн.",
+	available: true
+},{
+	id: "027",
+	name: "ДСП H1348 Дуб Кремона Шампань",
+	dimension: "580 х 1400 мм.",
+	thickness: 25,
+	producer: "Egger",
+	description: "Акція! 026+027 = 600 грн",
+	price: "250 грн.",
+	available: true
+},{
+	id: "028",
+	name: "ДСП D9116 Дуб молочний",
+	dimension: "2750 х 815 мм.",
+	thickness: 18,
+	producer: "Swiss Krono",
+	description: "Нормальний стан",
+	price: "400 грн.",
+	available: true
+},{
+	id: "029",
+	name: "ДСП H1582 ST15 Бук Ельмау",
+	dimension: "2770 х 1255 мм.",
+	thickness: 25,
+	producer: "Egger",
+	description: "Нормальний стан",
+	price: "900 грн.",
+	available: true
+},{
+	id: "030",
+	name: "ДСП 8679 Дуб Родос світлий",
+	dimension: "2800 х 990 мм.",
+	thickness: 18,
+	producer: "Kronospan",
+	description: "Акція! 020+021 = 400 грн",
+	price: "210 грн.",
+	available: false
+},{
+	id: "031",
+	name: "ДСП 8679 Дуб Родос світлий",
+	dimension: "2100 х 900 мм.",
+	thickness: 18,
+	producer: "Kronospan",
+	description: "Акція! 020+021 = 400 грн",
+	price: "210 грн.",
+	available: false
+},{
+	id: "032",
+	name: "ДСП 8679 Дуб Родос світлий",
+	dimension: "2030 х 275 мм.",
+	thickness: 18,
+	producer: "Kronospan",
+	description: "Акція! 020+021 = 400 грн",
+	price: "210 грн.",
+	available: false
+},{
+	id: "033",
+	name: "ДСП 8679 Дуб Родос світлий",
+	dimension: "1890 х 390 мм.",
+	thickness: 18,
+	producer: "Kronospan",
+	description: "Акція! 020+021 = 400 грн",
+	price: "210 грн.",
+	available: false
+},{
+	id: "034",
+	name: "ДСП 8679 Дуб Родос світлий",
+	dimension: "2800 х 1415 мм.",
+	thickness: 18,
+	producer: "Kronospan",
+	description: "Акція! 020+021 = 400 грн",
+	price: "210 грн.",
+	available: false
 }
 ];
