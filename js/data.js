@@ -14,7 +14,7 @@ var data = [{
 	dimension: "2750 х 1409 мм.",
 	thickness: 10,
 	producer: "Kronospan",
-	description: "Одна сторона ідеал, друга 5-",
+	description: "Акція! 002+003=800грн",
 	price: "650 грн.",
 	available: true
 },{
@@ -23,7 +23,7 @@ var data = [{
 	dimension: "2090 х 791 мм.",
 	thickness: 18,
 	producer: "Kronospan",
-	description: "Деталь у хорошому стані",
+	description: "Акція! 002+003=800грн",
 	price: "300 грн.",
 	available: true
 },{
@@ -177,7 +177,7 @@ var data = [{
 	thickness: 18,
 	producer: "Kronospan",
 	description: "Акція! 020+021 = 400 грн",
-	price: "230 грн.",
+	price: "240 грн.",
 	available: true
 },{
 	id: "021",
@@ -262,48 +262,48 @@ var data = [{
 	available: true
 },{
 	id: "030",
-	name: "ДСП 8679 Дуб Родос світлий",
+	name: "ДСП H1709 ST15 Французький горіх",
 	dimension: "2800 х 990 мм.",
 	thickness: 18,
-	producer: "Kronospan",
-	description: "Акція! 020+021 = 400 грн",
-	price: "210 грн.",
-	available: false
+	producer: "Egger",
+	description: "Акція! 030+031+032=800грн.",
+	price: "500 грн.",
+	available: true
 },{
 	id: "031",
-	name: "ДСП 8679 Дуб Родос світлий",
+	name: "ДСП H1709 ST15 Французький горіх",
 	dimension: "2100 х 900 мм.",
 	thickness: 18,
-	producer: "Kronospan",
-	description: "Акція! 020+021 = 400 грн",
-	price: "210 грн.",
-	available: false
+	producer: "Egger",
+	description: "Акція! 030+031+032=800грн.",
+	price: "350 грн.",
+	available: true
 },{
 	id: "032",
-	name: "ДСП 8679 Дуб Родос світлий",
+	name: "ДСП H1709 ST15 Французький горіх",
 	dimension: "2030 х 275 мм.",
 	thickness: 18,
-	producer: "Kronospan",
-	description: "Акція! 020+021 = 400 грн",
-	price: "210 грн.",
-	available: false
+	producer: "Egger",
+	description: "Акція! 030+031+032=800грн.",
+	price: "50 грн.",
+	available: true
 },{
 	id: "033",
-	name: "ДСП 8679 Дуб Родос світлий",
+	name: "ДСП H1599 Бук Тіроль шоколадний",
 	dimension: "1890 х 390 мм.",
 	thickness: 18,
-	producer: "Kronospan",
-	description: "Акція! 020+021 = 400 грн",
-	price: "210 грн.",
-	available: false
+	producer: "Egger",
+	description: "Нормальний стан",
+	price: "100 грн.",
+	available: true
 },{
 	id: "034",
-	name: "ДСП 8679 Дуб Родос світлий",
+	name: "ДСП U113 Коттон бежевий",
 	dimension: "2800 х 1415 мм.",
 	thickness: 18,
 	producer: "Kronospan",
-	description: "Акція! 020+021 = 400 грн",
-	price: "210 грн.",
-	available: false
+	description: "Деталь у хорошому стані",
+	price: "700 грн.",
+	available: true
 }
 ];
