@@ -34,15 +34,6 @@ var data = [{
 	producer: "Kronospan",
 	description: "Деталь у хорошому стані",
 	price: "550 грн.",
-	available: false
-},{
-	id: "005",
-	name: "ДВП 0101 Білий",
-	dimension: "2010 х 770 мм.",
-	thickness: 3,
-	producer: "Kronospan",
-	description: "Деталь у хорошому стані",
-	price: "90 грн.",
 	available: true
 },{
 	id: "006",
@@ -55,13 +46,13 @@ var data = [{
 	available: true
 },{
 	id: "007",
-	name: "ДСП Беж",
+	name: "ДСП U113Жемчужный білий(беж)",
 	dimension: "2280 х 695 мм.",
 	thickness: 18,
-	producer: "Noname",
+	producer: "Egger",
 	description: "Деталь у хорошому стані",
 	price: "360 грн.",
-	available: false
+	available: true
 },{
 	id: "008",
 	name: "W908 SМ Білий базовий",
@@ -99,23 +90,14 @@ var data = [{
 	price: "100 грн.",
 	available: true
 },{
-	id: "012",
-	name: "ДВП 101 Білий",
-	dimension: "2070 х 516 мм.",
-	thickness: 3,
-	producer: "Kronospan",
-	description: "Деталь у хорошому стані",
-	price: "50 грн.",
-	available: true
-},{
 	id: "013",
-	name: "ДСП Noname",
+	name: "ДСП Вудлайн Мокка",
 	dimension: "2800 х 958 мм.",
 	thickness: 16,
-	producer: "Noname",
+	producer: "Egger",
 	description: "Деталь у хорошому стані",
-	price: " грн.",
-	available: false
+	price: "500 грн.",
+	available: true
 },{
 	id: "014",
 	name: "ДСП 8685 SN Білий сніг",
@@ -304,6 +286,150 @@ var data = [{
 	producer: "Kronospan",
 	description: "Деталь у хорошому стані",
 	price: "700 грн.",
+	available: true
+},{
+	id: "035",
+	name: "ДВП 1972 Яблоня ",
+	dimension: "2800 х 1415 мм.",
+	thickness: 3,
+	producer: "Kronospan",
+	description: "Стан задовільний",
+	price: "250 грн.",
+	available: true
+},{
+	id: "036",
+	name: "ДВП Горіх Комо",
+	dimension: "1820 х 1660 мм.",
+	thickness: 3,
+	producer: "Swisspan",
+	description: "Стан задовільний",
+	price: "200 грн.",
+	available: true
+},{
+	id: "037",
+	name: "ДВП Горіх Комо",
+	dimension: "1740 х 1660 мм.",
+	thickness: 3,
+	producer: "Swisspan",
+	description: "Стан задовільний",
+	price: "170 грн.",
+	available: true
+},{
+	id: "038",
+	name: "ДВП Венге",
+	dimension: "2080 х 720 мм.",
+	thickness: 3,
+	producer: "Kronospan",
+	description: "Стан задовільний",
+	price: "100 грн.",
+	available: true
+},{
+	id: "039",
+	name: "ДВП Клен",
+	dimension: "2850 х 1190 мм.",
+	thickness: 3,
+	producer: "Kronospan",
+	description: "Стан задовільний",
+	price: "220 грн.",
+	available: true
+},{
+	id: "040",
+	name: "ДВП Вишня",
+	dimension: "2800 х 1087 мм.",
+	thickness: 3,
+	producer: "Kronospan",
+	description: "Деталь у хорошому стані",
+	price: "200 грн.",
+	available: true
+},{
+	id: "041",
+	name: "ДСП Венге Магия",
+	dimension: "2120 х 570 мм.",
+	thickness: 16,
+	producer: "Kronospan",
+	description: "Одна сторона у красці",
+	price: "150 грн.",
+	available: true
+},{
+	id: "042",
+	name: "ДСП K105 PW Дуб Эндгрейн",
+	dimension: "2800 х 597 мм.",
+	thickness: 18,
+	producer: "Kronospan UA",
+	description: "Відмінний стан",
+	price: "350 грн.",
+	available: true
+},{
+	id: "043",
+	name: "ДСП 0381 PR Бук Бавария",
+	dimension: "2750 х 402 мм.",
+	thickness: 18,
+	producer: "Kronospan",
+	description: "Акція 043+044+045=350грн.",
+	price: "150 грн.",
+	available: true
+},{
+	id: "044",
+	name: "ДСП 0381 PR Бук Бавария",
+	dimension: "2750 х 411 мм.",
+	thickness: 18,
+	producer: "Kronospan",
+	description: "Акція 043+044+045=350грн.",
+	price: "150 грн.",
+	available: true
+},{
+	id: "045",
+	name: "ДСП 0381 PR Бук Бавария",
+	dimension: "2750 х 402 мм.",
+	thickness: 18,
+	producer: "Kronospan",
+	description: "Акція 043+044+045=350грн.",
+	price: "150 грн.",
+	available: true
+},{
+	id: "046",
+	name: "ДСП W980 ST2 Платиновий білий",
+	dimension: "2070 х 378 мм.",
+	thickness: 18,
+	producer: "Egger",
+	description: "Деталь у хорошому стані",
+	price: "150 грн.",
+	available: true
+},{
+	id: "047",
+	name: "ДСП W980 ST2 Платиновий білий",
+	dimension: "2800 х 843 мм.",
+	thickness: 18,
+	producer: "Egger",
+	description: "Деталь у хорошому стані",
+	price: "450 грн.",
+	available: true
+},{
+	id: "048",
+	name: "ДСП Черно-коричневий",
+	dimension: "2800 х 520 мм.",
+	thickness: 18,
+	producer: "Egger",
+	description: "Деталь у хорошому стані",
+	price: "250 грн.",
+	available: true
+},{
+	id: "049",
+	name: "ДВП 101 Білий",
+	dimension: "900 х 652 мм.",
+	thickness: 3,
+	producer: "Kronospan",
+	description: "Деталь у хорошому стані",
+	price: "40 грн.",
+	available: true
+},{
+	id: "050",
+	name: "ДВП 101 Білий",
+	dimension: "2800 х 525 мм.",
+	thickness: 3,
+	producer: "Kronospan",
+	description: "Деталь у хорошому стані",
+	price: "100 грн.",
 	available: true
 }
 ];
