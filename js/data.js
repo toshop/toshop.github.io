@@ -431,5 +431,14 @@ var data = [{
 	description: "Деталь у хорошому стані",
 	price: "100 грн.",
 	available: true
+},{
+	id: "051",
+	name: "ДСП D1885 MT Ільм нордік",
+	dimension: "2800 х 970 мм.",
+	thickness: 18,
+	producer: "Swiss Krono",
+	description: "Відмінний стан",
+	price: "500 грн.",
+	available: true
 }
 ];
