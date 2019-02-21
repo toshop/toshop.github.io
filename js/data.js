@@ -27,15 +27,6 @@ var data = [{
 	price: "300 грн.",
 	available: true
 },{
-	id: "004",
-	name: "ДСП 8548 SN Файнлайн мокка",
-	dimension: "2800 х 1002 мм.",
-	thickness: 18,
-	producer: "Kronospan",
-	description: "Деталь у хорошому стані",
-	price: "550 грн.",
-	available: true
-},{
 	id: "006",
 	name: "ДВП 101 Білий",
 	dimension: "2280 х 1200 мм.",
@@ -88,15 +79,6 @@ var data = [{
 	producer: "Kronpspan",
 	description: "Деталь у хорошому стані",
 	price: "100 грн.",
-	available: true
-},{
-	id: "013",
-	name: "ДСП Вудлайн Мокка",
-	dimension: "2800 х 958 мм.",
-	thickness: 16,
-	producer: "Egger",
-	description: "Деталь у хорошому стані",
-	price: "500 грн.",
 	available: true
 },{
 	id: "014",
@@ -387,15 +369,6 @@ var data = [{
 	price: "150 грн.",
 	available: true
 },{
-	id: "046",
-	name: "ДСП W980 ST2 Платиновий білий",
-	dimension: "2070 х 378 мм.",
-	thickness: 18,
-	producer: "Egger",
-	description: "Деталь у хорошому стані",
-	price: "150 грн.",
-	available: true
-},{
 	id: "047",
 	name: "ДСП W980 ST2 Платиновий білий",
 	dimension: "2800 х 843 мм.",
@@ -439,6 +412,15 @@ var data = [{
 	producer: "Swiss Krono",
 	description: "Відмінний стан",
 	price: "500 грн.",
+	available: true
+},{
+	id: "052",
+	name: "ДСП W980 ST2 Платиновий білий",
+	dimension: "1940 х 400 мм.",
+	thickness: 10,
+	producer: "Egger",
+	description: "Деталь у хорошому стані",
+	price: "50 грн.",
 	available: true
 }
 ];
