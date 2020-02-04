@@ -52,7 +52,7 @@ var data = [{
 	producer: "Egger",
 	description: "Деталь у хорошому стані",
 	price: "120 грн.",
-	available: true
+	available: false
 },{
 	id: "009",
 	name: "ДСП U119 PE Свеітлий беж",
@@ -97,7 +97,7 @@ var data = [{
 	producer: "Kronospan",
 	description: "Деталь у хорошому стані",
 	price: "100 грн.",
-	available: true
+	available: false
 },{
 	id: "016",
 	name: "ДСП H1555 ST15 Венге",
@@ -124,7 +124,7 @@ var data = [{
 	producer: "Luxeform",
 	description: "Деталь у хорошому стані",
 	price: "100 грн.",
-	available: true
+	available: false
 },{
 	id: "019",
 	name: "Акріл SM Сніжно-Білий ",
@@ -160,7 +160,7 @@ var data = [{
 	producer: "Egger",
 	description: "Нормальний стан",
 	price: "180 грн.",
-	available: true
+	available: false
 },{
 	id: "023",
 	name: "ДСП 2226 PR Венге Магія",
@@ -250,7 +250,7 @@ var data = [{
 	producer: "Egger",
 	description: "Акція! 030+031+032=800грн.",
 	price: "50 грн.",
-	available: true
+	available: false
 },{
 	id: "033",
 	name: "ДСП H1599 Бук Тіроль шоколадний",
@@ -259,7 +259,7 @@ var data = [{
 	producer: "Egger",
 	description: "Нормальний стан",
 	price: "100 грн.",
-	available: true
+	available: false
 },{
 	id: "034",
 	name: "ДСП U113 Коттон бежевий",
@@ -349,7 +349,7 @@ var data = [{
 	producer: "Kronospan",
 	description: "Акція 043+044+045=350грн.",
 	price: "150 грн.",
-	available: true
+	available: false
 },{
 	id: "044",
 	name: "ДСП 0381 PR Бук Бавария",
@@ -358,7 +358,7 @@ var data = [{
 	producer: "Kronospan",
 	description: "Акція 043+044+045=350грн.",
 	price: "150 грн.",
-	available: true
+	available: false
 },{
 	id: "045",
 	name: "ДСП 0381 PR Бук Бавария",
@@ -367,7 +367,7 @@ var data = [{
 	producer: "Kronospan",
 	description: "Акція 043+044+045=350грн.",
 	price: "150 грн.",
-	available: true
+	available: false
 },{
 	id: "047",
 	name: "ДСП W980 ST2 Платиновий білий",
@@ -403,7 +403,7 @@ var data = [{
 	producer: "Kronospan",
 	description: "Деталь у хорошому стані",
 	price: "100 грн.",
-	available: true
+	available: false
 },{
 	id: "051",
 	name: "ДСП D1885 MT Ільм нордік",
@@ -416,7 +416,7 @@ var data = [{
 },{
 	id: "052",
 	name: "ДСП W980 ST2 Платиновий білий",
-	dimension: "1940 х 400 мм.",
+	dimension: "1720 х 400 мм.",
 	thickness: 10,
 	producer: "Egger",
 	description: "Деталь у хорошому стані",
