@@ -142,7 +142,7 @@ var data = [{
 	producer: "Kronospan",
 	description: "Акція! 020+021 = 400 грн",
 	price: "240 грн.",
-	available: true
+	available: false
 },{
 	id: "021",
 	name: "ДСП 8679 Дуб Родос світлий",
@@ -151,7 +151,7 @@ var data = [{
 	producer: "Kronospan",
 	description: "Акція! 020+021 = 400 грн",
 	price: "210 грн.",
-	available: true
+	available: false
 },{
 	id: "022",
 	name: "ДСП W980 ST2 Платиновий білий",
