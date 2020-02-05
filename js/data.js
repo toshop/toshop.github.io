@@ -106,7 +106,7 @@ var data = [{
 	producer: "Egger",
 	description: "Деталь у хорошому стані",
 	price: "250 грн.",
-	available: true
+	available: false
 },{
 	id: "017",
 	name: "ДСП U 330 ST 15 Баклажан",
@@ -169,7 +169,7 @@ var data = [{
 	producer: "Kronospan",
 	description: "Нормальний стан",
 	price: "600 грн.",
-	available: true
+	available: false
 },{
 	id: "024",
 	name: "ДСП 2227 PR Венге темний",
@@ -178,7 +178,7 @@ var data = [{
 	producer: "Kronospan",
 	description: "Нормальний стан",
 	price: "500 грн.",
-	available: true
+	available: false
 },{
 	id: "025",
 	name: "ДСП U999 ST2 Чорний",
@@ -214,7 +214,7 @@ var data = [{
 	producer: "Swiss Krono",
 	description: "Нормальний стан",
 	price: "400 грн.",
-	available: true
+	available: false
 },{
 	id: "029",
 	name: "ДСП H1582 ST15 Бук Ельмау",
@@ -232,7 +232,7 @@ var data = [{
 	producer: "Egger",
 	description: "Акція! 030+031+032=800грн.",
 	price: "500 грн.",
-	available: true
+	available: false
 },{
 	id: "031",
 	name: "ДСП H1709 ST15 Французький горіх",
@@ -241,7 +241,7 @@ var data = [{
 	producer: "Egger",
 	description: "Акція! 030+031+032=800грн.",
 	price: "350 грн.",
-	available: true
+	available: false
 },{
 	id: "032",
 	name: "ДСП H1709 ST15 Французький горіх",
@@ -385,7 +385,7 @@ var data = [{
 	producer: "Egger",
 	description: "Деталь у хорошому стані",
 	price: "250 грн.",
-	available: true
+	available: false
 },{
 	id: "049",
 	name: "ДВП 101 Білий",
