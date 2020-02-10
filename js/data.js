@@ -187,7 +187,7 @@ var data = [{
 	producer: "Egger",
 	description: "Нормальний стан",
 	price: "300 грн.",
-	available: true
+	available: false
 },{
 	id: "026",
 	name: "ДСП H1348 Дуб Кремона Шампань",
