@@ -43,7 +43,7 @@ var data = [{
 	producer: "Egger",
 	description: "Деталь у хорошому стані",
 	price: "360 грн.",
-	available: true
+	available: false
 },{
 	id: "008",
 	name: "W908 SМ Білий базовий",
@@ -196,7 +196,7 @@ var data = [{
 	producer: "Egger",
 	description: "Акція! 026+027 = 650 грн",
 	price: "500 грн.",
-	available: true
+	available: false
 },{
 	id: "027",
 	name: "ДСП H1348 Дуб Кремона Шампань",
@@ -205,7 +205,7 @@ var data = [{
 	producer: "Egger",
 	description: "Акція! 026+027 = 600 грн",
 	price: "250 грн.",
-	available: true
+	available: false
 },{
 	id: "028",
 	name: "ДСП D9116 Дуб молочний",
@@ -304,7 +304,7 @@ var data = [{
 	producer: "Kronospan",
 	description: "Стан задовільний",
 	price: "100 грн.",
-	available: true
+	available: false
 },{
 	id: "039",
 	name: "ДВП Клен",
@@ -313,7 +313,7 @@ var data = [{
 	producer: "Kronospan",
 	description: "Стан задовільний",
 	price: "220 грн.",
-	available: true
+	available: false
 },{
 	id: "040",
 	name: "ДВП Вишня",
@@ -331,7 +331,7 @@ var data = [{
 	producer: "Kronospan",
 	description: "Одна сторона у красці",
 	price: "150 грн.",
-	available: true
+	available: false
 },{
 	id: "042",
 	name: "ДСП K105 PW Дуб Эндгрейн",
